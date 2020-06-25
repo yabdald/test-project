@@ -1,0 +1,335 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+
+    margin: 0px;
+    padding: 0px;  
+    
+    
+    
+    
+}
+
+header{
+
+    background-color: rgb(0, 144, 197);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.logo{
+
+  width: 228px;
+  height: 100px;
+
+}
+
+.ps4, .xbox {
+
+  
+  
+  padding: 5px;
+  color: rgb(0, 144, 197);
+  font-size: 30px;
+  
+
+
+}
+
+.pc{
+
+  
+  
+  padding: 5px;
+  color: rgb(0, 144, 197);
+  font-size: 30px;
+  
+
+
+}
+
+
+
+
+
+  .MainBody{
+
+    min-height: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+    display: block;
+    float: left;
+    width: 85%;
+    
+    
+  }
+  .MainBody h1{
+    text-align: left;
+    background-color: rgb(0, 144, 197);
+    background-position: center;
+  
+    text-decoration: none;
+    
+  }
+
+  
+  .productCard{
+
+        border: 1px solid rgb(0, 144, 197);
+        display: inline-block;
+        text-align: center;
+        overflow: auto;
+        width: 290px;
+       
+        padding: 1%;
+        margin: .5%;
+        
+        
+       
+  }
+
+  .btmcart{
+
+    background-color: rgb(0, 144, 197);
+    margin-top: 12px;
+    cursor: pointer;
+    color: #eee;
+    border: none;
+    padding: 5%;
+    width: 60%;
+  }
+  
+
+  ul {
+
+    background-color: #eee;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+   
+    text-align: center;
+    margin-left: 20px;
+    display: inline;
+    
+  }
+  
+  li a, .dropbtn {
+
+    color: rgb(0, 144, 197);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    
+    
+    
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+
+    background-color: rgb(0, 144, 197);
+    transition:  all .5s  ease-in-out ;
+    color: #eee;
+    
+  }
+  
+  li.dropdown {
+
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #eee;
+    position: absolute;
+    min-width: 160px;
+    display: none;
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content a {
+
+    color: rgb(0, 144, 197);
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align: left;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+
+    background-color: rgb(0, 144, 197);
+    color: #eee;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+
+    display: block;
+  }
+  
+  .footer{
+
+    background-color: rgb(0, 144, 197);
+
+    text-align: center;
+    position: relative;
+    margin-top: -100px;
+    color: #eee;
+    padding: 10px;
+    clear: both;
+    z-index: 2;
+  }
+  
+  
+  
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+  }
+  
+  .container:hover .overlay {
+    opacity: .8;
+    position: absolute;
+  }
+  
+  .text {
+    
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .background{
+
+   
+    background:  linear-gradient(rgba(23, 114, 156, 0.5), rgba(23, 114, 156, 0.5)), url(backgrond.jpg);
+    background-position: center center;
+    background-size: cover;
+    filter: opacity(0.1);
+    height: 100%;
+    width: 100%;
+    
+   
+
+
+  }
+
+  /*  Sign in */
+
+  .ln{
+
+    margin-left: 100px;
+
+
+  }
+
+  .register{
+
+    background-color: rgba(255, 255, 255,0.4);
+    box-shadow: -1px 5px 25px -7px #000;
+    border-radius: 20px;
+    position: absolute;
+    display: block;
+    width: 69%;
+    left: 14%;
+    top: 33%;
+    
+  
+  }
+
+  .signIN{
+
+    text-align: center;
+    padding: 30px;
+
+
+  }
+
+  .input{
+
+    box-shadow: 0px 1px 1px -1px rgb(0, 144, 197);
+    margin-bottom: 15px;
+    border: none;
+    height: 30px;
+    width: 48%;
+    
+
+  }
+
+  input:hover{
+
+    border-bottom: 1px solid rgb(0, 144, 197);
+    
+
+
+  }
+
+  .submit{
+
+    background-color: rgb(0, 144, 197);
+    color: rgb(255, 251, 251);
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    min-width: 18%;
+   
+ 
+    
+  
+  }
+
+  .fas::before{
+
+    color:#eee;
+  }
+
+  .fas{
+
+    margin-right: 10px;
+
+
+  }
+
+  /* slide*/
+
+  
